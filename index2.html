@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en" class="h-100">
+<head>
+    <title>Test Page</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- CSS only -->
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="bootstrap.bundle.min.js">
+</head>
+
+<body class="d-flex flex-column h-100">
+
+<main class="flex-fill mb-5">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand mb-1" href="/">
+                Hi!
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="navbar-nav me-auto mb-lg-0">
+                    <a class="nav-link" target="_blank"
+                       href="https://example.com">Example!</a>
+                </div>
+                <div class="navbar-nav mb-lg-0">
+                    <div class="dropdown nav-link">
+                        <button class="btn btn-outline-primary dropdown-toggle" id="navbarAccountDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                            My Account
+                        </button>
+                        <ul class="dropdown-menu" aria-label="Navbar Account Dropdown">
+                            <li><a class="dropdown-item" href="/#">Link 1</a></li>
+                            <li><a class="dropdown-item" href="/#">Link 2</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <form class="d-flex my-1">
+                    <input id="navbarSearchField" class="form-control me-2" type="search"
+                           placeholder="Search Catalog"
+                           aria-label="Search">
+                    <div
+                            class="btn btn-outline-success "
+                            id="navbarSearchButton"
+                    >Search
+                    </div>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container flex-shrink-0 mt-3" style="height:100%; width: 100%">
+        <table style="width: 100%; height: 80%" class="mx-auto">
+            <tbody>
+            <tr>
+                <td class="align-middle">
+                    <div class="card bg-light" style="height:50%">
+                        <div class="card-body">
+                            <table style="height: 100%; width: 100%">
+                                <tbody>
+                                <tr>
+                                    <td class="align-middle">
+                                        <form method="post" id="searchForm">
+                                            <h1 class="text-center mb-5">latest bootstrap</h1>
+                                            <div class="input-group input-group-lg">
+                                                <input type="text" name="search_text"
+                                                       class="form-control border-2 border-primary text-center shadow-sm"
+                                                       id="mainSearchBar" aria-label="search"
+                                                       placeholder="Type here!">
+                                            </div>
+                                            <div class="row mt-5 mb-2 text-center">
+                                                <div class="col-1 col-md-2 col-lg-4"></div>
+                                                <div class="col-10 col-md-8 col-lg-4">
+                                                    <div class="d-grid gap-2">
+                                                        <input
+                                                                class="btn btn-success "
+                                                                id="mainSearchButton" value="Search!" type="submit"
+                                                        >
+                                                    </div>
+                                                </div>
+                                                <div class="col-1 col-md-2 col-lg-4"></div>
+                                            </div>
+                                        </form>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</main>
+
+<footer class="footer mt-auto py-3 bg-light">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col">
+                <a href="https://example.com" style="color:black">Example</a>
+            </div>
+            <div class="col">
+                Additional data.
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
